@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Segment-Firebase/Classes/**/*'
   s.default_subspec = 'Core'
 
-  s.dependency 'Analytics', '~> 3.2'
-  s.dependency 'Firebase/Core', '~> 3.3.0'
+  s.dependency 'Analytics', '~> 3.6.0'
+  s.dependency 'Firebase/Core'
 
   s.subspec 'Core' do |core|
     #For users who only want the core Firebase package
